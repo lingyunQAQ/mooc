@@ -140,6 +140,19 @@ def main():
             phone_sel = ["input[type='tel']", "input[placeholder*='手机号']", "input[name*='phone']", "#phone"]
             pass_sel = ["input[type='password']", "input[placeholder*='密码']", "input[name*='password']", "#password"]
 
+
+            # 强制切到“密码登录/账号登录”模式
+            for t in ["密码登录", "账号登录", "使用密码登录"]:
+                try:
+                    loc = target_frame.get_by_text(t)
+                    if loc.count() > 0:
+                        loc.first.click(timeout=2500)
+                        report["events"].append({"type":"note","msg":f"switch_login_mode:{t}"})
+                        page.wait_for_timeout(1200)
+                        break
+                except Exception:
+                    pass
+
             pbox = None
             for s in phone_sel:
                 try:

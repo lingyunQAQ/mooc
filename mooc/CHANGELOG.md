@@ -45,3 +45,14 @@
   - `POST /dl/dlzc/yd/ini`
   - `POST /zc/zj/yd/ini`
 - 说明：登录核心参数经前端加密后提交（非明文字段），后续需要在前端 JS 中还原 `encParams` 生成逻辑。
+
+### Updated (密码登录模式修正)
+- 调整 `scripts/mooc_auth_chain_deep.py`：新增“密码登录/账号登录”模式切换尝试。
+- 新增产物：
+  - `logs/auth_chain_deep_1772813282.json`
+  - `logs/auth_chain_deep_1772813282.png`
+
+### Findings (密码登录)
+- 已执行“密码登录模式切换”逻辑，但当前页面仍出现 `password input not visible/editable`。
+- 说明密码输入框在可见性层面受动态组件或前端状态控制（可能需要先切 tab、触发验证码组件初始化、或等待特定脚本渲染完成）。
+- 鉴权请求仍统一为 `encParams` 加密提交，端点不变。
