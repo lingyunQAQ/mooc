@@ -1,0 +1,113 @@
+{
+  "time": 1772810964,
+  "url": "https://www.icourse163.org/",
+  "actions": [
+    "open_home",
+    "click_text:登录"
+  ],
+  "candidates": [
+    {
+      "type": "request",
+      "method": "GET",
+      "resourceType": "script",
+      "url": "https://mc.stu.126.net/rc/main/assets/CampusLogin.c7ffa796.js"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "resourceType": "document",
+      "url": "https://reg.icourse163.org/webzj/v1.0.1/pub/index_dl2_new.html?cd=%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F&cf=mooc_urs_login_css.css&MGID=1772810968851.349&wdaId=UA1438236666413&pkid=cjJVGQM&product=imooc&cdnhostname=webzj.netstatic.net"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "resourceType": "document",
+      "url": "https://reg.icourse163.org/webzj/v1.0.1/pub/index_dl2_new.html?cd=%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F&cf=mooc_urs_login_css.css&MGID=1772810968857.387&wdaId=UA1438236666413&pkid=cjJVGQM&product=imooc&cdnhostname=webzj.netstatic.net"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "resourceType": "document",
+      "url": "https://reg.icourse163.org/webzj/v1.0.1/pub/index_reg2_new.html?cd=%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F&cf=mooc_urs_login_css.css&MGID=1772810968863.226&wdaId=UA1438236666413&pkid=cjJVGQM&product=imooc&cdnhostname=webzj.netstatic.net"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://mc.stu.126.net/rc/main/assets/CampusLogin.c7ffa796.js"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "resourceType": "script",
+      "url": "https://mc.stu.126.net/rc/main/assets/campus-login-entry.2014c1ba.chunk.js"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://mc.stu.126.net/rc/main/assets/campus-login-entry.2014c1ba.chunk.js"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://reg.icourse163.org/webzj/v1.0.1/pub/index_dl2_new.html?cd=%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F&cf=mooc_urs_login_css.css&MGID=1772810968851.349&wdaId=UA1438236666413&pkid=cjJVGQM&product=imooc&cdnhostname=webzj.netstatic.net"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://reg.icourse163.org/webzj/v1.0.1/pub/index_dl2_new.html?cd=%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F&cf=mooc_urs_login_css.css&MGID=1772810968857.387&wdaId=UA1438236666413&pkid=cjJVGQM&product=imooc&cdnhostname=webzj.netstatic.net"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://reg.icourse163.org/webzj/v1.0.1/pub/index_reg2_new.html?cd=%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F&cf=mooc_urs_login_css.css&MGID=1772810968863.226&wdaId=UA1438236666413&pkid=cjJVGQM&product=imooc&cdnhostname=webzj.netstatic.net"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "url": "https://cmc.stu.126.net/u/css/cms/mooc_urs_login_css.css"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://cmc.stu.126.net/u/css/cms/mooc_urs_login_css.css"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "resourceType": "image",
+      "url": "https://dl.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=https%3A%2F%2Fwww.icourse163.org%2F&config=%7B%22newCDN%22%3A1%2C%22version%22%3A4%2C%22productKey%22%3A%22a3b396bb2f589bbc1151f0fa61d14747%22%2C%22swidth%22%3A250%2C%22product%22%3A%22imooc%22%2C%22promark%22%3A%22cjJVGQM%22%2C%22skin%22%3A4%2C%22needUnLogin%22%3A1%2C%22defaultUnLogin%22%3A1%2C%22mobileUnLoginTimeTxt%22%3A%22%E5%8D%81%E5%A4%A9%E5%86%85%E5%85%8D%E7%99%BB%E5%BD%95%22%2C%22mobileUnLoginTime%22%3A10%2C%22mobileDefaultUnLogin%22%3A1%2C%22needPrepare%22%3A1%2C%22loginText%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22wdaId%22%3A%22UA1438236666413%22%2C%22mbBtnTxt%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22smsBtnTxt%22%3A%22%E4%BD%BF%E7%94%A8%E7%9F%AD%E4%BF%A1%E7%99%BB%E5%BD%95%22%2C%22regMbTxt%22%3A%22%E6%B3%A8%20%E5%86%8C%22%2C%22isHttps%22%3A1%2C%22mbNeedItl%22%3A0%2C%22mode%22%3A%22popup%22%2C%22cookieDomain%22%3A%22icourse163.org%22%2C%22regCookieDomain%22%3A%22icourse163.org%22%2C%22needMobileLogin%22%3A1%2C%22needMobileReg%22%3A1%2C%22focusHelper%22%3A1%2C%22autoFocus%22%3A1%2C%22smsLoginFirst%22%3A0%2C%22mobileFirst%22%3A1%2C%22cssDomain%22%3A%22%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F%22%2C%22cssFiles%22%3A%22mooc_urs_login_css.css%22%2C%22single%22%3A1%2C%22needRegAgreeMbNoChecked%22%3A1%2C%22style%22%3A1%2C%22uniteLogin%22%3A%7B%22isItl%22%3A0%2C%22clause%22%3A0%2C%22first%22%3A0%2C%22needClause%22%3A1%2C%22needUnLogin%22%3A1%2C%22unLoginTime%22%3A10%2C%22unLoginDefautl%22%3A1%2C%22unLoginTxt%22%3A%22%E5%8D%81%E5%A4%A9%E5%86%85%E5%85%8D%E7%99%BB%E5%BD%95%22%2C%22loginTxt%22%3A%22%E5%BF%AB%E6%8D%B7%E7%99%BB%E5%BD%95%22%2C%22terms0%22%3A%22%E3%80%8A%E6%9C%8D%E5%8A%A1%E6%9D%A1%E6%AC%BE%E3%80%8B%22%2C%22terms0Link%22%3A%22%2F%2Freg.163.com%2Fagreement_mobile.shtml%22%2C%22terms1%22%3A%22%E3%80%8A%E7%BD%91%E6%98%93%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96%E3%80%8B%22%2C%22terms1Link%22%3A%22%2F%2Freg.163.com%2Fagreement_mobile_ysbh.shtml%22%2C%22placeholders%22%3A%7B%22mob%22%3A%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%89%8B%E6%9C%BA%E5%8F%B7%22%2C%22cap%22%3A%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%9B%BE%E7%89%87%E9%AA%8C%E8%AF%81%E7%A0%81%22%2C%22sms%22%3A%22%E8%AF%B7%E8%BE%93%E5%85%A5%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%22%7D%7D%2C%22from3Cdn%22%3A1%2C%22needSendLog%22%3Afalse%2C%22needSendLogDt%22%3Afalse%2C%22cdnhostname%22%3A%22webzj.netstatic.net%22%2C%22crossDomainUrl%22%3A%22reg.icourse163.org%2Fwebzj%2Fv1.0.1%2Fpub%2F%22%2C%22ursDeviceId%22%3A%221772810965873-266313%22%2C%22bgpTime%22%3A10000%2C%22mv%22%3A%22new_cdn_101%22%2C%22getsmstxt%22%3A%22%E8%8E%B7%E5%8F%96%E9%AA%8C%E8%AF%81%E7%A0%81%22%2C%22needRegAgree%22%3A1%2C%22needRegAgreeMb%22%3A1%7D"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "resourceType": "image",
+      "url": "https://dl.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=https%3A%2F%2Fwww.icourse163.org%2F&config=%7B%22newCDN%22%3A1%2C%22version%22%3A4%2C%22productKey%22%3A%22a3b396bb2f589bbc1151f0fa61d14747%22%2C%22swidth%22%3A360%2C%22product%22%3A%22imooc%22%2C%22promark%22%3A%22cjJVGQM%22%2C%22skin%22%3A4%2C%22needUnLogin%22%3A1%2C%22defaultUnLogin%22%3A1%2C%22mobileUnLoginTimeTxt%22%3A%22%E5%8D%81%E5%A4%A9%E5%86%85%E5%85%8D%E7%99%BB%E5%BD%95%22%2C%22mobileUnLoginTime%22%3A10%2C%22mobileDefaultUnLogin%22%3A1%2C%22needPrepare%22%3A1%2C%22loginText%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22wdaId%22%3A%22UA1438236666413%22%2C%22mbBtnTxt%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22smsBtnTxt%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22regMbTxt%22%3A%22%E6%B3%A8%20%E5%86%8C%22%2C%22isHttps%22%3A1%2C%22mbNeedItl%22%3A1%2C%22mode%22%3A%22float%22%2C%22cookieDomain%22%3A%22icourse163.org%22%2C%22regCookieDomain%22%3A%22icourse163.org%22%2C%22needMobileLogin%22%3A0%2C%22needMobileReg%22%3A0%2C%22page%22%3A%22login%22%2C%22single%22%3A1%2C%22focusHelper%22%3A1%2C%22autoFocus%22%3A1%2C%22cssDomain%22%3A%22%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F%22%2C%22cssFiles%22%3A%22mooc_urs_login_css.css%22%2C%22style%22%3A1%2C%22from3Cdn%22%3A1%2C%22needSendLog%22%3Afalse%2C%22needSendLogDt%22%3Afalse%2C%22cdnhostname%22%3A%22webzj.netstatic.net%22%2C%22crossDomainUrl%22%3A%22reg.icourse163.org%2Fwebzj%2Fv1.0.1%2Fpub%2F%22%2C%22ursDeviceId%22%3A%221772810965873-266313%22%2C%22bgpTime%22%3A10000%2C%22mv%22%3A%22new_cdn_101%22%2C%22getsmstxt%22%3A%22%E8%8E%B7%E5%8F%96%E9%AA%8C%E8%AF%81%E7%A0%81%22%2C%22needRegAgree%22%3A1%2C%22needRegAgreeMb%22%3A1%7D"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "resourceType": "image",
+      "url": "https://dl.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=https%3A%2F%2Fwww.icourse163.org%2F&config=%7B%22newCDN%22%3A1%2C%22version%22%3A4%2C%22productKey%22%3A%22a3b396bb2f589bbc1151f0fa61d14747%22%2C%22swidth%22%3A250%2C%22product%22%3A%22imooc%22%2C%22promark%22%3A%22cjJVGQM%22%2C%22skin%22%3A4%2C%22needUnLogin%22%3A1%2C%22defaultUnLogin%22%3A1%2C%22mobileUnLoginTimeTxt%22%3A%22%E5%8D%81%E5%A4%A9%E5%86%85%E5%85%8D%E7%99%BB%E5%BD%95%22%2C%22mobileUnLoginTime%22%3A10%2C%22mobileDefaultUnLogin%22%3A1%2C%22needPrepare%22%3A1%2C%22loginText%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22wdaId%22%3A%22UA1438236666413%22%2C%22mbBtnTxt%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22smsBtnTxt%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22regMbTxt%22%3A%22%E6%B3%A8%E5%86%8C%E5%B9%B6%E7%99%BB%E5%BD%95%22%2C%22isHttps%22%3A1%2C%22mbNeedItl%22%3A0%2C%22mode%22%3A%22popup%22%2C%22cookieDomain%22%3A%22icourse163.org%22%2C%22regCookieDomain%22%3A%22icourse163.org%22%2C%22needMobileLogin%22%3A1%2C%22needMobileReg%22%3A1%2C%22mobileFirst%22%3A1%2C%22page%22%3A%22register%22%2C%22cssDomain%22%3A%22%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F%22%2C%22cssFiles%22%3A%22mooc_urs_login_css.css%22%2C%22style%22%3A1%2C%22mbNoPwd%22%3A0%2C%22needRegAgreeMbNoChecked%22%3A1%2C%22single%22%3A1%2C%22goMbRegTxt%22%3A%22%E6%89%8B%E6%9C%BA%E5%8F%B7%E6%B3%A8%E5%86%8C%22%2C%22from3Cdn%22%3A1%2C%22needSendLog%22%3Afalse%2C%22needSendLogDt%22%3Afalse%2C%22cdnhostname%22%3A%22webzj.netstatic.net%22%2C%22crossDomainUrl%22%3A%22reg.icourse163.org%2Fwebzj%2Fv1.0.1%2Fpub%2F%22%2C%22ursDeviceId%22%3A%221772810965873-266313%22%2C%22bgpTime%22%3A10000%2C%22mv%22%3A%22new_cdn_101%22%2C%22getsmstxt%22%3A%22%E8%8E%B7%E5%8F%96%E9%AA%8C%E8%AF%81%E7%A0%81%22%2C%22needRegAgree%22%3A1%2C%22needRegAgreeMb%22%3A1%7D"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://dl.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=https%3A%2F%2Fwww.icourse163.org%2F&config=%7B%22newCDN%22%3A1%2C%22version%22%3A4%2C%22productKey%22%3A%22a3b396bb2f589bbc1151f0fa61d14747%22%2C%22swidth%22%3A360%2C%22product%22%3A%22imooc%22%2C%22promark%22%3A%22cjJVGQM%22%2C%22skin%22%3A4%2C%22needUnLogin%22%3A1%2C%22defaultUnLogin%22%3A1%2C%22mobileUnLoginTimeTxt%22%3A%22%E5%8D%81%E5%A4%A9%E5%86%85%E5%85%8D%E7%99%BB%E5%BD%95%22%2C%22mobileUnLoginTime%22%3A10%2C%22mobileDefaultUnLogin%22%3A1%2C%22needPrepare%22%3A1%2C%22loginText%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22wdaId%22%3A%22UA1438236666413%22%2C%22mbBtnTxt%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22smsBtnTxt%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22regMbTxt%22%3A%22%E6%B3%A8%20%E5%86%8C%22%2C%22isHttps%22%3A1%2C%22mbNeedItl%22%3A1%2C%22mode%22%3A%22float%22%2C%22cookieDomain%22%3A%22icourse163.org%22%2C%22regCookieDomain%22%3A%22icourse163.org%22%2C%22needMobileLogin%22%3A0%2C%22needMobileReg%22%3A0%2C%22page%22%3A%22login%22%2C%22single%22%3A1%2C%22focusHelper%22%3A1%2C%22autoFocus%22%3A1%2C%22cssDomain%22%3A%22%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F%22%2C%22cssFiles%22%3A%22mooc_urs_login_css.css%22%2C%22style%22%3A1%2C%22from3Cdn%22%3A1%2C%22needSendLog%22%3Afalse%2C%22needSendLogDt%22%3Afalse%2C%22cdnhostname%22%3A%22webzj.netstatic.net%22%2C%22crossDomainUrl%22%3A%22reg.icourse163.org%2Fwebzj%2Fv1.0.1%2Fpub%2F%22%2C%22ursDeviceId%22%3A%221772810965873-266313%22%2C%22bgpTime%22%3A10000%2C%22mv%22%3A%22new_cdn_101%22%2C%22getsmstxt%22%3A%22%E8%8E%B7%E5%8F%96%E9%AA%8C%E8%AF%81%E7%A0%81%22%2C%22needRegAgree%22%3A1%2C%22needRegAgreeMb%22%3A1%7D"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://dl.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=https%3A%2F%2Fwww.icourse163.org%2F&config=%7B%22newCDN%22%3A1%2C%22version%22%3A4%2C%22productKey%22%3A%22a3b396bb2f589bbc1151f0fa61d14747%22%2C%22swidth%22%3A250%2C%22product%22%3A%22imooc%22%2C%22promark%22%3A%22cjJVGQM%22%2C%22skin%22%3A4%2C%22needUnLogin%22%3A1%2C%22defaultUnLogin%22%3A1%2C%22mobileUnLoginTimeTxt%22%3A%22%E5%8D%81%E5%A4%A9%E5%86%85%E5%85%8D%E7%99%BB%E5%BD%95%22%2C%22mobileUnLoginTime%22%3A10%2C%22mobileDefaultUnLogin%22%3A1%2C%22needPrepare%22%3A1%2C%22loginText%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22wdaId%22%3A%22UA1438236666413%22%2C%22mbBtnTxt%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22smsBtnTxt%22%3A%22%E4%BD%BF%E7%94%A8%E7%9F%AD%E4%BF%A1%E7%99%BB%E5%BD%95%22%2C%22regMbTxt%22%3A%22%E6%B3%A8%20%E5%86%8C%22%2C%22isHttps%22%3A1%2C%22mbNeedItl%22%3A0%2C%22mode%22%3A%22popup%22%2C%22cookieDomain%22%3A%22icourse163.org%22%2C%22regCookieDomain%22%3A%22icourse163.org%22%2C%22needMobileLogin%22%3A1%2C%22needMobileReg%22%3A1%2C%22focusHelper%22%3A1%2C%22autoFocus%22%3A1%2C%22smsLoginFirst%22%3A0%2C%22mobileFirst%22%3A1%2C%22cssDomain%22%3A%22%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F%22%2C%22cssFiles%22%3A%22mooc_urs_login_css.css%22%2C%22single%22%3A1%2C%22needRegAgreeMbNoChecked%22%3A1%2C%22style%22%3A1%2C%22uniteLogin%22%3A%7B%22isItl%22%3A0%2C%22clause%22%3A0%2C%22first%22%3A0%2C%22needClause%22%3A1%2C%22needUnLogin%22%3A1%2C%22unLoginTime%22%3A10%2C%22unLoginDefautl%22%3A1%2C%22unLoginTxt%22%3A%22%E5%8D%81%E5%A4%A9%E5%86%85%E5%85%8D%E7%99%BB%E5%BD%95%22%2C%22loginTxt%22%3A%22%E5%BF%AB%E6%8D%B7%E7%99%BB%E5%BD%95%22%2C%22terms0%22%3A%22%E3%80%8A%E6%9C%8D%E5%8A%A1%E6%9D%A1%E6%AC%BE%E3%80%8B%22%2C%22terms0Link%22%3A%22%2F%2Freg.163.com%2Fagreement_mobile.shtml%22%2C%22terms1%22%3A%22%E3%80%8A%E7%BD%91%E6%98%93%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96%E3%80%8B%22%2C%22terms1Link%22%3A%22%2F%2Freg.163.com%2Fagreement_mobile_ysbh.shtml%22%2C%22placeholders%22%3A%7B%22mob%22%3A%22%E8%AF%B7%E8%BE%93%E5%85%A5%E6%89%8B%E6%9C%BA%E5%8F%B7%22%2C%22cap%22%3A%22%E8%AF%B7%E8%BE%93%E5%85%A5%E5%9B%BE%E7%89%87%E9%AA%8C%E8%AF%81%E7%A0%81%22%2C%22sms%22%3A%22%E8%AF%B7%E8%BE%93%E5%85%A5%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%22%7D%7D%2C%22from3Cdn%22%3A1%2C%22needSendLog%22%3Afalse%2C%22needSendLogDt%22%3Afalse%2C%22cdnhostname%22%3A%22webzj.netstatic.net%22%2C%22crossDomainUrl%22%3A%22reg.icourse163.org%2Fwebzj%2Fv1.0.1%2Fpub%2F%22%2C%22ursDeviceId%22%3A%221772810965873-266313%22%2C%22bgpTime%22%3A10000%2C%22mv%22%3A%22new_cdn_101%22%2C%22getsmstxt%22%3A%22%E8%8E%B7%E5%8F%96%E9%AA%8C%E8%AF%81%E7%A0%81%22%2C%22needRegAgree%22%3A1%2C%22needRegAgreeMb%22%3A1%7D"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "url": "https://dl.reg.163.com/UA1435545636633/__utm.gif?configlog=1&from=https%3A%2F%2Fwww.icourse163.org%2F&config=%7B%22newCDN%22%3A1%2C%22version%22%3A4%2C%22productKey%22%3A%22a3b396bb2f589bbc1151f0fa61d14747%22%2C%22swidth%22%3A250%2C%22product%22%3A%22imooc%22%2C%22promark%22%3A%22cjJVGQM%22%2C%22skin%22%3A4%2C%22needUnLogin%22%3A1%2C%22defaultUnLogin%22%3A1%2C%22mobileUnLoginTimeTxt%22%3A%22%E5%8D%81%E5%A4%A9%E5%86%85%E5%85%8D%E7%99%BB%E5%BD%95%22%2C%22mobileUnLoginTime%22%3A10%2C%22mobileDefaultUnLogin%22%3A1%2C%22needPrepare%22%3A1%2C%22loginText%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22wdaId%22%3A%22UA1438236666413%22%2C%22mbBtnTxt%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22smsBtnTxt%22%3A%22%E7%99%BB%20%E5%BD%95%22%2C%22regMbTxt%22%3A%22%E6%B3%A8%E5%86%8C%E5%B9%B6%E7%99%BB%E5%BD%95%22%2C%22isHttps%22%3A1%2C%22mbNeedItl%22%3A0%2C%22mode%22%3A%22popup%22%2C%22cookieDomain%22%3A%22icourse163.org%22%2C%22regCookieDomain%22%3A%22icourse163.org%22%2C%22needMobileLogin%22%3A1%2C%22needMobileReg%22%3A1%2C%22mobileFirst%22%3A1%2C%22page%22%3A%22register%22%2C%22cssDomain%22%3A%22%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F%22%2C%22cssFiles%22%3A%22mooc_urs_login_css.css%22%2C%22style%22%3A1%2C%22mbNoPwd%22%3A0%2C%22needRegAgreeMbNoChecked%22%3A1%2C%22single%22%3A1%2C%22goMbRegTxt%22%3A%22%E6%89%8B%E6%9C%BA%E5%8F%B7%E6%B3%A8%E5%86%8C%22%2C%22from3Cdn%22%3A1%2C%22needSendLog%22%3Afalse%2C%22needSendLogDt%22%3Afalse%2C%22cdnhostname%22%3A%22webzj.netstatic.net%22%2C%22crossDomainUrl%22%3A%22reg.icourse163.org%2Fwebzj%2Fv1.0.1%2Fpub%2F%22%2C%22ursDeviceId%22%3A%221772810965873-266313%22%2C%22bgpTime%22%3A10000%2C%22mv%22%3A%22new_cdn_101%22%2C%22getsmstxt%22%3A%22%E8%8E%B7%E5%8F%96%E9%AA%8C%E8%AF%81%E7%A0%81%22%2C%22needRegAgree%22%3A1%2C%22needRegAgreeMb%22%3A1%7D"
+    }
+  ],
+  "final_url": "https://www.icourse163.org/",
+  "title": "中国大学MOOC_优质在线课程学习平台",
+  "har": "/root/.openclaw/workspace/mooc/logs/packet_capture_1772810964.har",
+  "screenshot": "/root/.openclaw/workspace/mooc/logs/packet_capture_1772810964.png"
+}
