@@ -71,3 +71,23 @@
   - `/dl/zj/mail/ini`
   - `/dl/dlzc/yd/ini`
   - `/zc/zj/yd/ini`
+
+### Updated (encParams 深挖与提交抓包)
+- 新增 `scripts/extract_encrypt_clues.py`：从抓取到的前端 JS 静态提取加密链路线索。
+- 新增产物：
+  - `logs/encrypt_clues_1772816366.json`
+  - `logs/auth_submit_capture_1772816496.json`
+
+### Findings (本轮)
+- 已抓到登录提交阶段真实 XHR 请求（密码登录点击后）。
+- 核心提交接口：
+  - `POST /zc/zj/yd/ini`
+  - `POST /dl/zj/mail/ini`
+  - `POST /dl/zj/yd/ini`
+  - `POST /dl/dlzc/yd/ini`
+- POST 体均为 JSON：`{"encParams":"..."}`（hex 密文）
+- 接口响应均为 `ret=201`（当前返回为进一步验证状态，非登录成功态）。
+- 静态 JS 线索显示：
+  - 存在 `_formatParams` + `_$aesEncrypt` + `str2b64` 流程
+  - 载荷包含 `params/timestamp/nonce/version(v1)`
+  - 提交前会调用 `getEncryptKey`，说明使用动态下发密钥。

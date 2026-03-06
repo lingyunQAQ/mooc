@@ -1,0 +1,225 @@
+{
+  "source_dir": "/root/.openclaw/workspace/mooc/logs/jsdump2",
+  "files": [
+    "001.js",
+    "002.js",
+    "003.js",
+    "004.js",
+    "005.js",
+    "006.js",
+    "007.js",
+    "008.js",
+    "009.js",
+    "010.js",
+    "011.js",
+    "012.js",
+    "013.js",
+    "014.js",
+    "015.js",
+    "016.js",
+    "017.js",
+    "018.js",
+    "019.js",
+    "020.js",
+    "021.js",
+    "022.js",
+    "023.js",
+    "024.js",
+    "025.js",
+    "026.js",
+    "027.js",
+    "028.js",
+    "029.js",
+    "030.js",
+    "031.js",
+    "032.js",
+    "033.js",
+    "034.js",
+    "035.js",
+    "036.js",
+    "037.js",
+    "038.js",
+    "039.js",
+    "040.js",
+    "041.js",
+    "042.js",
+    "043.js",
+    "044.js",
+    "045.js",
+    "046.js",
+    "047.js",
+    "048.js",
+    "049.js",
+    "050.js",
+    "051.js",
+    "052.js",
+    "053.js",
+    "054.js",
+    "055.js",
+    "056.js",
+    "057.js",
+    "058.js",
+    "059.js",
+    "060.js",
+    "061.js",
+    "062.js",
+    "063.js",
+    "064.js",
+    "065.js",
+    "066.js",
+    "067.js",
+    "068.js",
+    "069.js",
+    "070.js",
+    "071.js",
+    "072.js",
+    "073.js"
+  ],
+  "findings": {
+    "_formatParams": [
+      {
+        "file": "004.js",
+        "snippet": "function(e){if(e){this.data.imageValidationCode=e.imageValidationCode;this._getEncryptKey()}}._$bind(this))}else this._getEncryptKey()},_getEncryptKey:function(){this._cacheIns.getEncryptKey({data:{mobile:this.data.tel}})},_cbongetEncryptKey:function(e){var t=e.result;var i=this._formatParams(t,this.data.tel,this.data.imageValidationCode,this.data.bizType);var n={reg:\"sendCode2Reg\",retrievePassword:\"sendcode2RetrievePwd\"};var o=n[this.data.bizType]?n[this.data.bizType]:n[\"reg\"];this._cacheIns[o]({data:i||{}})},\n_formatParams:function(e,t,i,s){var r=\"\";tr"
+      },
+      {
+        "file": "008.js",
+        "snippet": "function(e){if(e){this.data.imageValidationCode=e.imageValidationCode;this._getEncryptKey()}}._$bind(this))}else this._getEncryptKey()},_getEncryptKey:function(){this._cacheIns.getEncryptKey({data:{mobile:this.data.tel}})},_cbongetEncryptKey:function(e){var t=e.result;var i=this._formatParams(t,this.data.tel,this.data.imageValidationCode,this.data.bizType);var n={reg:\"sendCode2Reg\",retrievePassword:\"sendcode2RetrievePwd\"};var o=n[this.data.bizType]?n[this.data.bizType]:n[\"reg\"];this._cacheIns[o]({data:i||{}})},_formatParams:function(e,t,i,s){var r=\"\";try"
+      },
+      {
+        "file": "059.js",
+        "snippet": "Code\",function(e){e&&(this.data.imageValidationCode=e.imageValidationCode,this._getEncryptKey())}._$bind(this))}else this._getEncryptKey()},_getEncryptKey:function(){this._cacheIns.getEncryptKey({data:{mobile:this.data.tel}})},_cbongetEncryptKey:function(e){var t=e.result,n=this._formatParams(t,this.data.tel,this.data.imageValidationCode,this.data.bizType),i={reg:\"sendCode2Reg\",retrievePassword:\"sendcode2RetrievePwd\"},o=i[this.data.bizType]?i[this.data.bizType]:i.reg;this._cacheIns[o]({data:n||{}})},_formatParams:function(e,t,n,a){var s=\"\";try{s=r._$str2"
+      }
+    ],
+    "_$aesEncrypt": [
+      {
+        "file": "004.js",
+        "snippet": "Utf8},\"45e5d1458815a61a6a2e55fc79eeac61\");EDU(\"7a8b7fd09836e2dab1b8eeebb724ea0e\",function(e){return e.pad.Pkcs7},\"45e5d1458815a61a6a2e55fc79eeac61\",\"3798ce93c8dd5825c5bf4dd2975b575a\");EDU(\"0ea984c838c93088638e615cbfbdbc4d\",function(e,t,i,n){var o={},a=function(){return this}();o._$aesEncrypt=function(o,a){var a=i.parse(a);var s=i.parse(o);var r=e.encrypt(s,a,{mode:t,padding:n});return r.toString()};return o},\"aeac099659dcc21bbc2a730f7370aede\",\"8240396d43077c0a9fc1164424675cb0\",\"6cac48e66c45c482a82be81ad1a4ee9f\",\"7a8b7fd09836e2dab1b8eeebb724ea0e\");EDU(\"a7"
+      },
+      {
+        "file": "008.js",
+        "snippet": "c.Utf8},\"0936ef263b4bcdcf236163a1800c66ae\");I$(\"1f5c01d3b255f4e0ed26d21b1e8828f0\",function(e){return e.pad.Pkcs7},\"0936ef263b4bcdcf236163a1800c66ae\",\"e095c0fc9a859732dfdc847829b47462\");I$(\"bc26adc6ece51c1261d8160d446a32b7\",function(e,t,i,n){var o={},a=function(){return this}();o._$aesEncrypt=function(o,a){var a=i.parse(a);var s=i.parse(o);var r=e.encrypt(s,a,{mode:t,padding:n});return r.toString()};return o},\"8c0c01bca8552db5dc0611f21319aa03\",\"4cd62a6ce3f342510814c6e0ff498300\",\"a98b6bbe2705dc02eb673b631aadd774\",\"1f5c01d3b255f4e0ed26d21b1e8828f0\");I$(\"139"
+      },
+      {
+        "file": "059.js",
+        "snippet": "a018777\",function(e){return e.enc.Utf8},\"f978595a91dcd6e41262874976e93781\"),I$(\"12869dc939dec7947c8603cda7f0b30a\",function(e){return e.pad.Pkcs7},\"f978595a91dcd6e41262874976e93781\",\"986dd082ab1da659f1b1457ee0dee300\"),I$(\"910ff3effd4803b95104d862e7e7b386\",function(e,t,n,i){var o={_$aesEncrypt:function(o,r){r=n.parse(r);var a=n.parse(o);return e.encrypt(a,r,{mode:t,padding:i}).toString()}};return o},\"26c70804c041242ddc9bca67ce8e1558\",\"d952b6108feb1937d0b9e35b171b8c58\",\"6534cd3ad06063864cf09fe65a018777\",\"12869dc939dec7947c8603cda7f0b30a\"),I$(\"b30bed84b91ef6"
+      }
+    ],
+    "str2b64": [
+      {
+        "file": "004.js",
+        "snippet": "gth;o<a;o+=4)n.push(c[t.charAt(o)]<<2|c[t.charAt(o+1)]>>4,(15&c[t.charAt(o+1)])<<4|c[t.charAt(o+2)]>>2,(3&c[t.charAt(o+2)])<<6|c[t.charAt(o+3)]);var s=n.length,r=t.length%4;if(2==r)n=n.slice(0,s-2);if(3==r)n=n.slice(0,s-1);return n}}();i._$b642str=function(e){return u(p(e))};i._$str2b64=function(e){try{return window.btoa(e)}catch(t){return h(f(e))}};if(!0)e.copy(e.P(\"nej.u\"),i);return i},\"bfe5ed62679ffcea351a355c70be92ca\",\"fe86216ed59e3103a56c42c850d389f0\");EDU(\"45e5d1458815a61a6a2e55fc79eeac61\",function(){var e=e||function(e,t){var i=Object.create||func"
+      },
+      {
+        "file": "008.js",
+        "snippet": "gth;o<a;o+=4)n.push(c[t.charAt(o)]<<2|c[t.charAt(o+1)]>>4,(15&c[t.charAt(o+1)])<<4|c[t.charAt(o+2)]>>2,(3&c[t.charAt(o+2)])<<6|c[t.charAt(o+3)]);var s=n.length,r=t.length%4;if(2==r)n=n.slice(0,s-2);if(3==r)n=n.slice(0,s-1);return n}}();i._$b642str=function(e){return u(p(e))};i._$str2b64=function(e){try{return window.btoa(e)}catch(t){return h(f(e))}};if(!0)e.copy(e.P(\"nej.u\"),i);return i},\"6813b3e430c9515de3769f13f9b256ec\",\"144bec2343c1abd6415bc5217387ac46\");I$(\"cab12cb4b057354f12054f091378e36a\",function(){function e(i,o){var a=i;if(o instanceof n)return "
+      },
+      {
+        "file": "037.js",
+        "snippet": "D_PHONE_MODAL_NOT_SHOWN_COOKIE_NAME,{path:\"/\",expires:1e3,value:\"1\"})};C.__handleLogin=function(e){if(e){var i=e.innerText;if(i!=t.KEY_SHARED_DESKTOP_SWITCH_ACCOUNT)T._$addEvent(e,\"click\",this.__gotoLoginHandle._$bind(this));else e.href=N.urlPrefix.logoutPrefix+\"?returnUrl=\"+R._$str2b64(S._$getDecodeCurUrl({}))}};C.__handleCateNavBox=function(e){};C.__handleMultiLineEllipsis=function(){var e=0;var t=0;for(var i=2;i<5;i++){var n=g._$getByClassName(document.body,\"f-\"+i+\"lines\");if(n.length)for(var o=0;o<n.length;o++){var a=n[o];e=parseInt(b(a,\"lineHeight\")"
+      },
+      {
+        "file": "059.js",
+        "snippet": "ction(e){return function(e){for(var t,n=0,i=[];n<e.length;)(t=e[n])<128?(i.push(String.fromCharCode(t)),n++):t>191&&t<224?(i.push(String.fromCharCode((31&t)<<6|63&e[n+1])),n+=2):(i.push(String.fromCharCode((15&t)<<12|(63&e[n+1])<<6|63&e[n+2])),n+=3);return i.join(\"\")}(l(e))},n._$str2b64=function(e){try{return window.btoa(e)}catch(t){return function(e){var t=0,n=[],i=e.length%3;for(1==i&&e.push(0,0),2==i&&e.push(0);t<e.length;)n.push(s[e[t]>>2],s[(3&e[t])<<4|e[t+1]>>4],s[(15&e[t+1])<<2|e[t+2]>>6],s[63&e[t+2]]),t+=3;return 1==i&&(n[n.length-1]=n[n.length-2"
+      }
+    ],
+    "getEncryptKey": [
+      {
+        "file": "004.js",
+        "snippet": ":!0},sendValidationCode2ChangePassword:{url:\"/passport/cellphone/sendValidationCode2ChangePassword.htm\",hideError:!0},changePassword:{url:\"/passport/cellphone/changePassword.htm\",hideError:!0},verifyValidationCode:{url:\"/passport/cellphone/verifyValidationCode.htm\",hideError:!0},getEncryptKey:{url:\"/passport/cellphone/getEncryptKey.htm\"},needVerifyCode:{url:\"/passport/cellphone/needVerifyCode.htm\"},sendVerifyCodeToPhoneNumber:{rest:!0,method:\"GET\",url:\"/j/cp/provider/sendValidationCode.json\"},checkPhoneAndVerifyCode:{rest:!0,method:\"GET\",url:\"/passport/c"
+      },
+      {
+        "file": "008.js",
+        "snippet": ":!0},sendValidationCode2ChangePassword:{url:\"/passport/cellphone/sendValidationCode2ChangePassword.htm\",hideError:!0},changePassword:{url:\"/passport/cellphone/changePassword.htm\",hideError:!0},verifyValidationCode:{url:\"/passport/cellphone/verifyValidationCode.htm\",hideError:!0},getEncryptKey:{url:\"/passport/cellphone/getEncryptKey.htm\"},needVerifyCode:{url:\"/passport/cellphone/needVerifyCode.htm\"},sendVerifyCodeToPhoneNumber:{rest:!0,method:\"GET\",url:\"/j/cp/provider/sendValidationCode.json\"},checkPhoneAndVerifyCode:{rest:!0,method:\"GET\",url:\"/passport/c"
+      },
+      {
+        "file": "059.js",
+        "snippet": ":!0},sendValidationCode2ChangePassword:{url:\"/passport/cellphone/sendValidationCode2ChangePassword.htm\",hideError:!0},changePassword:{url:\"/passport/cellphone/changePassword.htm\",hideError:!0},verifyValidationCode:{url:\"/passport/cellphone/verifyValidationCode.htm\",hideError:!0},getEncryptKey:{url:\"/passport/cellphone/getEncryptKey.htm\"},needVerifyCode:{url:\"/passport/cellphone/needVerifyCode.htm\"},sendVerifyCodeToPhoneNumber:{rest:!0,method:\"GET\",url:\"/j/cp/provider/sendValidationCode.json\"},checkPhoneAndVerifyCode:{rest:!0,method:\"GET\",url:\"/passport/c"
+      }
+    ],
+    "needVerifyCode": [
+      {
+        "file": "004.js",
+        "snippet": "hone/sendValidationCode2ChangePassword.htm\",hideError:!0},changePassword:{url:\"/passport/cellphone/changePassword.htm\",hideError:!0},verifyValidationCode:{url:\"/passport/cellphone/verifyValidationCode.htm\",hideError:!0},getEncryptKey:{url:\"/passport/cellphone/getEncryptKey.htm\"},needVerifyCode:{url:\"/passport/cellphone/needVerifyCode.htm\"},sendVerifyCodeToPhoneNumber:{rest:!0,method:\"GET\",url:\"/j/cp/provider/sendValidationCode.json\"},checkPhoneAndVerifyCode:{rest:!0,method:\"GET\",url:\"/passport/cellphone/verifyValidationCode.htm\"},bindMobileToAccount:{url"
+      },
+      {
+        "file": "008.js",
+        "snippet": "hone/sendValidationCode2ChangePassword.htm\",hideError:!0},changePassword:{url:\"/passport/cellphone/changePassword.htm\",hideError:!0},verifyValidationCode:{url:\"/passport/cellphone/verifyValidationCode.htm\",hideError:!0},getEncryptKey:{url:\"/passport/cellphone/getEncryptKey.htm\"},needVerifyCode:{url:\"/passport/cellphone/needVerifyCode.htm\"},sendVerifyCodeToPhoneNumber:{rest:!0,method:\"GET\",url:\"/j/cp/provider/sendValidationCode.json\"},checkPhoneAndVerifyCode:{rest:!0,method:\"GET\",url:\"/passport/cellphone/verifyValidationCode.htm\"},bindMobileToAccount:{url"
+      },
+      {
+        "file": "059.js",
+        "snippet": "hone/sendValidationCode2ChangePassword.htm\",hideError:!0},changePassword:{url:\"/passport/cellphone/changePassword.htm\",hideError:!0},verifyValidationCode:{url:\"/passport/cellphone/verifyValidationCode.htm\",hideError:!0},getEncryptKey:{url:\"/passport/cellphone/getEncryptKey.htm\"},needVerifyCode:{url:\"/passport/cellphone/needVerifyCode.htm\"},sendVerifyCodeToPhoneNumber:{rest:!0,method:\"GET\",url:\"/j/cp/provider/sendValidationCode.json\"},checkPhoneAndVerifyCode:{rest:!0,method:\"GET\",url:\"/passport/cellphone/verifyValidationCode.htm\"},bindMobileToAccount:{url"
+      }
+    ],
+    "sendValidationCode": [
+      {
+        "file": "004.js",
+        "snippet": "a313cae10be65ed958db92a01\");EDU(\"d1bbffe67df11c079686e79722c2111a\",function(){return{\"cellphone-login\":{url:\"/passport/cellphone/login.htm\",hideError:!0},\"cellphone-register\":{url:\"/passport/cellphone/registerAndLogin.htm\",hideError:!0\n},sendcode2Reg:{url:\"/passport/cellphone/v2/sendValidationCode.htm\",hideError:!0},sendcode2RetrievePwd:{url:\"/passport/cellphone/v2/sendValidationCode.htm\",hideError:!0},retrievePasswordAndLogin:{url:\"/passport/cellphone/retrievePasswordAndLogin.htm\",hideError:!0},sendValidationCode2ChangePassword:{url:\"/passport/cellphone"
+      },
+      {
+        "file": "008.js",
+        "snippet": "db7aa5ee35141d4e43f3657cd1b\");I$(\"7a337506a5d25cb690e6c0fe7fb1febd\",function(){return{\"cellphone-login\":{url:\"/passport/cellphone/login.htm\",hideError:!0},\"cellphone-register\":{url:\"/passport/cellphone/registerAndLogin.htm\",hideError:!0},sendcode2Reg:{url:\"/passport/cellphone/v2/sendValidationCode.htm\",hideError:!0},sendcode2RetrievePwd:{url:\"/passport/cellphone/v2/sendValidationCode.htm\",hideError:!0},retrievePasswordAndLogin:{url:\"/passport/cellphone/retrievePasswordAndLogin.htm\",hideError:!0},sendValidationCode2ChangePassword:{url:\"/passport/cellphone"
+      },
+      {
+        "file": "059.js",
+        "snippet": "ba7a56455ad68eccbb21403f700\"),I$(\"ee8f15102b107a389bee97a54aec4867\",function(){return{\"cellphone-login\":{url:\"/passport/cellphone/login.htm\",hideError:!0},\"cellphone-register\":{url:\"/passport/cellphone/registerAndLogin.htm\",hideError:!0},sendcode2Reg:{url:\"/passport/cellphone/v2/sendValidationCode.htm\",hideError:!0},sendcode2RetrievePwd:{url:\"/passport/cellphone/v2/sendValidationCode.htm\",hideError:!0},retrievePasswordAndLogin:{url:\"/passport/cellphone/retrievePasswordAndLogin.htm\",hideError:!0},sendValidationCode2ChangePassword:{url:\"/passport/cellphone"
+      }
+    ],
+    "nonce": [
+      {
+        "file": "004.js",
+        "snippet": "2RetrievePwd\"};var o=n[this.data.bizType]?n[this.data.bizType]:n[\"reg\"];this._cacheIns[o]({data:i||{}})},\n_formatParams:function(e,t,i,s){var r=\"\";try{r=a._$str2b64(n._$aesEncrypt(JSON.stringify({params:JSON.stringify({mobile:t,verifyCode:i||\"\"}),timestamp:o._$getCurServerTime(),nonce:1e5*Math.random()+\"\",version:\"v1\"}),e))}catch(c){console.log(c)}return{params:r,bizType:s,mobile:t}},_cbonsendCodeSuccess:function(e){if(e){if(this._telImageValidationUI)this._telImageValidationUI.destroy();this.onSendCodeSuccess(e)}},_cbonsendCodeError:function(e){e=e.resu"
+      },
+      {
+        "file": "008.js",
+        "snippet": "e2RetrievePwd\"};var o=n[this.data.bizType]?n[this.data.bizType]:n[\"reg\"];this._cacheIns[o]({data:i||{}})},_formatParams:function(e,t,i,s){var r=\"\";try{r=a._$str2b64(n._$aesEncrypt(JSON.stringify({params:JSON.stringify({mobile:t,verifyCode:i||\"\"}),timestamp:o._$getCurServerTime(),nonce:1e5*Math.random()+\"\",version:\"v1\"}),e))}catch(c){console.log(c)}return{params:r,bizType:s,mobile:t}},_cbonsendCodeSuccess:function(e){if(e){if(this._telImageValidationUI)this._telImageValidationUI.destroy();this.onSendCodeSuccess(e)}},_cbonsendCodeError:function(e){e=e.resu"
+      },
+      {
+        "file": "013.js",
+        "snippet": "e{var c,b;if(void 0!==r)for(var f=document.getElementsByTagName(\"script\"),i=0;i<f.length;i++){var y=f[i];if(y.getAttribute(\"src\")==e||y.getAttribute(\"data-webpack\")==n+r){c=y;break}}c||(b=!0,(c=document.createElement(\"script\")).charset=\"utf-8\",c.timeout=120,d.nc&&c.setAttribute(\"nonce\",d.nc),c.setAttribute(\"data-webpack\",n+r),c.src=e),t[e]=[a];var l=(a,r)=>{c.onerror=c.onload=null,clearTimeout(u);var n=t[e];if(delete t[e],c.parentNode&&c.parentNode.removeChild(c),n&&n.forEach(e=>e(r)),a)return a(r)},u=setTimeout(l.bind(null,void 0,{type:\"timeout\",target:"
+      },
+      {
+        "file": "024.js",
+        "snippet": "try{e.attributeStyleMap?e.attributeStyleMap.delete(t):e.style.removeProperty(t)}catch(e){}},oe=function(e,t){return e.selectorText=t,e.selectorText===t},ue=re(function(){return document.querySelector(\"head\")});var ce=re(function(){var e=document.querySelector('meta[property=\"csp-nonce\"]');return e?e.getAttribute(\"content\"):null}),le=function(e,t,n){try{\"insertRule\"in e?e.insertRule(t,n):\"appendRule\"in e&&e.appendRule(t)}catch(e){return!1}return e.cssRules[n]},de=function(e,t){var n=e.cssRules.length;return void 0===t||t>n?n:t},fe=function(){function e(e)"
+      },
+      {
+        "file": "027.js",
+        "snippet": "]:{};if(!(0,r.A)())return null;var n=t.csp,o=t.prepend,a=t.priority,c=void 0===a?0:a,u=function(e){return\"queue\"===e?\"prependQueue\":e?\"prepend\":\"append\"}(o),s=\"prependQueue\"===u,p=document.createElement(\"style\");p.setAttribute(i,u),s&&c&&p.setAttribute(l,\"\".concat(c)),null!=n&&n.nonce&&(p.nonce=null==n?void 0:n.nonce),p.innerHTML=e;var v=d(t),h=v.firstChild;if(o){if(s){var m=(t.styles||f(v)).filter(function(e){if(![\"prepend\",\"prependQueue\"].includes(e.getAttribute(i)))return!1;var t=Number(e.getAttribute(l)||0);return c>=t});if(m.length)return v.insertBe"
+      },
+      {
+        "file": "037.js",
+        "snippet": "e,t)}else window.reactComponentLoadBootstrap.init({name:e,container:t},{},{loadSuccessCb:function(){this.__injectRightBottomAiMoocEntry()}._$bind(this)})}};C.__initWXJSShare=function(e){if(e)if(window.wx)window.wx.config({debug:!1,appId:\"wx72345eb11caa176e\",timestamp:e.timestamp,nonceStr:e.nonceStr,signature:e.signature,jsApiList:[\"onMenuShareTimeline\",\"onMenuShareAppMessage\"],openTagList:[\"wx-open-launch-app\"]})};C.__initRecruit=function(){this.__recruitBtn=g._$get(\"j-recruitBtn\");if(this.__recruitBtn)T._$addEvent(this.__recruitBtn,\"click\",function(){S."
+      },
+      {
+        "file": "056.js",
+        "snippet": "oncat(r,\" \").concat(h);t[r]=h+1;var L=n(s),w={css:l[1],media:l[2],sourceMap:l[3]};-1!==L?(d[L].references++,d[L].updater(w)):d.push({identifier:s,updater:a(w,e),references:1}),o.push(s)}return o}function r(C){var e=document.createElement(\"style\"),o=C.attributes||{};if(void 0===o.nonce){var d=t.nc;d&&(o.nonce=d)}if(Object.keys(o).forEach(function(C){e.setAttribute(C,o[C])}),\"function\"==typeof C.insert)C.insert(e);else{var n=i(C.insert||\"head\");if(!n)throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' paramete"
+      },
+      {
+        "file": "059.js",
+        "snippet": "sendcode2RetrievePwd\"},o=i[this.data.bizType]?i[this.data.bizType]:i.reg;this._cacheIns[o]({data:n||{}})},_formatParams:function(e,t,n,a){var s=\"\";try{s=r._$str2b64(i._$aesEncrypt(JSON.stringify({params:JSON.stringify({mobile:t,verifyCode:n||\"\"}),timestamp:o._$getCurServerTime(),nonce:1e5*Math.random()+\"\",version:\"v1\"}),e))}catch(e){console.log(e)}return{params:s,bizType:a,mobile:t}},_cbonsendCodeSuccess:function(e){e&&(this._telImageValidationUI&&this._telImageValidationUI.destroy(),this.onSendCodeSuccess(e))},_cbonsendCodeError:function(e){var t=(e=e.r"
+      },
+      {
+        "file": "067.js",
+        "snippet": "oncat(l,\" \").concat(c);r[l]=c+1;var f=a(s),d={css:u[1],media:u[2],sourceMap:u[3]};-1!==f?(i[f].references++,i[f].updater(d)):i.push({identifier:s,updater:y(d,t),references:1}),n.push(s)}return n}function l(e){var t=document.createElement(\"style\"),n=e.attributes||{};if(void 0===n.nonce){var i=r.nc;i&&(n.nonce=i)}if(Object.keys(n).forEach(function(e){t.setAttribute(e,n[e])}),\"function\"==typeof e.insert)e.insert(t);else{var a=o(e.insert||\"head\");if(!a)throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' paramete"
+      }
+    ],
+    "version:\"v1\"": [
+      {
+        "file": "004.js",
+        "snippet": ".data.bizType]?n[this.data.bizType]:n[\"reg\"];this._cacheIns[o]({data:i||{}})},\n_formatParams:function(e,t,i,s){var r=\"\";try{r=a._$str2b64(n._$aesEncrypt(JSON.stringify({params:JSON.stringify({mobile:t,verifyCode:i||\"\"}),timestamp:o._$getCurServerTime(),nonce:1e5*Math.random()+\"\",version:\"v1\"}),e))}catch(c){console.log(c)}return{params:r,bizType:s,mobile:t}},_cbonsendCodeSuccess:function(e){if(e){if(this._telImageValidationUI)this._telImageValidationUI.destroy();this.onSendCodeSuccess(e)}},_cbonsendCodeError:function(e){e=e.result?e.result:e;var t=e.error"
+      },
+      {
+        "file": "008.js",
+        "snippet": "s.data.bizType]?n[this.data.bizType]:n[\"reg\"];this._cacheIns[o]({data:i||{}})},_formatParams:function(e,t,i,s){var r=\"\";try{r=a._$str2b64(n._$aesEncrypt(JSON.stringify({params:JSON.stringify({mobile:t,verifyCode:i||\"\"}),timestamp:o._$getCurServerTime(),nonce:1e5*Math.random()+\"\",version:\"v1\"}),e))}catch(c){console.log(c)}return{params:r,bizType:s,mobile:t}},_cbonsendCodeSuccess:function(e){if(e){if(this._telImageValidationUI)this._telImageValidationUI.destroy();this.onSendCodeSuccess(e)}},_cbonsendCodeError:function(e){e=e.result?e.result:e;var t=e.error"
+      },
+      {
+        "file": "059.js",
+        "snippet": "this.data.bizType]?i[this.data.bizType]:i.reg;this._cacheIns[o]({data:n||{}})},_formatParams:function(e,t,n,a){var s=\"\";try{s=r._$str2b64(i._$aesEncrypt(JSON.stringify({params:JSON.stringify({mobile:t,verifyCode:n||\"\"}),timestamp:o._$getCurServerTime(),nonce:1e5*Math.random()+\"\",version:\"v1\"}),e))}catch(e){console.log(e)}return{params:s,bizType:a,mobile:t}},_cbonsendCodeSuccess:function(e){e&&(this._telImageValidationUI&&this._telImageValidationUI.destroy(),this.onSendCodeSuccess(e))},_cbonsendCodeError:function(e){var t=(e=e.result?e.result:e).error||{}"
+      }
+    ]
+  },
+  "conclusion": [
+    "encParams 相关链路采用前端 AES 加密 + base64 处理",
+    "加密载荷包含 timestamp / nonce / version(v1)",
+    "登录前存在 getEncryptKey 动作，疑似动态密钥下发"
+  ]
+}

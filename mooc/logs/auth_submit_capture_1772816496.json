@@ -1,0 +1,54 @@
+[
+  {
+    "type": "req",
+    "url": "https://reg.icourse163.org/zc/zj/yd/ini",
+    "method": "POST",
+    "post": "{\"encParams\":\"746628c1d80daa15585d90cadd41445fd80bd7c73126c9a49623be514a07a27ed1d900d63d125921f6a73ffdb7c64bf5afdf726003252c5af61bed0fadd5ae409eaaffa910021f8a6d522b4681cebef0db7e2de2428e97521b82319f78d8813a464277ddb9fc049e063505c072f8191012842e43a4c2a81d46ba59d912c6701ff115c10c6018f7f73c543df7f068d8d8e3451db946a8ca7f0c56912f1084a71a\"}",
+    "rtype": "xhr"
+  },
+  {
+    "type": "req",
+    "url": "https://reg.icourse163.org/dl/zj/mail/ini",
+    "method": "POST",
+    "post": "{\"encParams\":\"746628c1d80daa15585d90cadd41445fd80bd7c73126c9a49623be514a07a27ed1d900d63d125921f6a73ffdb7c64bf5afdf726003252c5af61bed0fadd5ae406d393821345c4192a2c77e21dfb704b4db7e2de2428e97521b82319f78d8813a464277ddb9fc049e063505c072f819106c58a6683ba9a6de59c41a0468cfa921706121069a1d5908008a18191147f1e662cc0de04079b7bd29b92fd3b734175d\"}",
+    "rtype": "xhr"
+  },
+  {
+    "type": "resp",
+    "url": "https://reg.icourse163.org/zc/zj/yd/ini",
+    "status": 200,
+    "body": "{\"ret\":\"201\",\"cf\":4,\"pv\":true,\"capId\":\"\"}"
+  },
+  {
+    "type": "resp",
+    "url": "https://reg.icourse163.org/dl/zj/mail/ini",
+    "status": 200,
+    "body": "{\"ret\":\"201\",\"capFlag\":0,\"pv\":true,\"capId\":\"\"}"
+  },
+  {
+    "type": "req",
+    "url": "https://reg.icourse163.org/dl/zj/yd/ini",
+    "method": "POST",
+    "post": "{\"encParams\":\"746628c1d80daa15585d90cadd41445fd80bd7c73126c9a49623be514a07a27ed1d900d63d125921f6a73ffdb7c64bf5afdf726003252c5af61bed0fadd5ae40b1e6cecd5374623a7bd48e37ec5e9c62db7e2de2428e97521b82319f78d8813a464277ddb9fc049e063505c072f81910cc42ba2d25e9b09d7559e2eb1ecf083ebdb5c0accd0f4d1e56c67b8f22165ced3767093aab4367b2166509a4370db04e\"}",
+    "rtype": "xhr"
+  },
+  {
+    "type": "resp",
+    "url": "https://reg.icourse163.org/dl/zj/yd/ini",
+    "status": 200,
+    "body": "{\"ret\":\"201\",\"capFlag\":0,\"pv\":true,\"capId\":\"\"}"
+  },
+  {
+    "type": "req",
+    "url": "https://reg.icourse163.org/dl/dlzc/yd/ini",
+    "method": "POST",
+    "post": "{\"encParams\":\"746628c1d80daa15585d90cadd41445fd80bd7c73126c9a49623be514a07a27ed1d900d63d125921f6a73ffdb7c64bf5afdf726003252c5af61bed0fadd5ae40801db93bcce7eca3b42b7582a933a4d59331beaf4a412cbfca5d6a2c6ae9c934754d78bd886bac34e7488d4740e67073fb815ca802fd3a4c4b30672437a9fa59169034655f5eb0ab1cf3045004509f7beb04a34401b8572b91e91c93fdaf59c2\"}",
+    "rtype": "xhr"
+  },
+  {
+    "type": "resp",
+    "url": "https://reg.icourse163.org/dl/dlzc/yd/ini",
+    "status": 200,
+    "body": "{\"ret\":\"201\",\"capFlag\":4,\"pv\":true,\"capId\":\"\"}"
+  }
+]
