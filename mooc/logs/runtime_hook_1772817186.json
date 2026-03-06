@@ -1,0 +1,94 @@
+{
+  "time": 1772817186,
+  "hooked": true,
+  "hook_logs": [
+    {
+      "fn": "URSSM4.encrypt",
+      "args_len": 2,
+      "args_preview": [
+        "{\"pd\":\"imooc\",\"pkid\":\"<STR>\",\"pkht\":\"www.<STR>.org\",\"<STR>\":14,\"<STR>\":\"https://www.<STR>.org/\",\"rtid\":\"ZiMY***eA\"}",
+        "BC60***E2"
+      ],
+      "ret_type": "string",
+      "ret_len": 320,
+      "ret_prefix": "746628c1d80daa15585d90cadd41445fd80bd7c73126c9a4"
+    }
+  ],
+  "net_logs": [
+    {
+      "type": "req",
+      "url": "https://ac.dun.163.com/v3/d",
+      "method": "POST",
+      "post_preview": "d=WYSRvw%2BhEUEn52kJ5K22j%2BKzCrKFJNqyOZg%2FWrkyqQWa7tWPCBjIoIV0YD2qD05kjmPBVQUL7pSDg9sAbv%2BLqax8DzJ2Qqug8McxwJryBaH8pa"
+    },
+    {
+      "type": "resp",
+      "url": "https://ac.dun.163.com/v3/d",
+      "status": 200,
+      "body_preview": "__wmjsonp_223625b([200,1772817187987,\"w0s3PXljH8VEFBEBRULTsaB1XQ7BIYYc\",\"z8jRrLzGfLhEQUBEAULS8eQkSU6FIdIM\",null,\"MmKG9GnhH0mvDNRqCptq1WRQZ9ltXF4Ur65ESRl3R3XWXxwWDYbK1M3/3ZvOtMvOl3OzgtwHWq91gso2VPMAREJxwmBXnxQwjyORSCG/RRfVSXFaTSEBBk10YPElLmF7dzI=\"])"
+    },
+    {
+      "type": "req",
+      "url": "https://reg.icourse163.org/dl/zj/yd/ini",
+      "method": "POST",
+      "encParams_len": 320,
+      "encParams_prefix": "746628c1d80daa15585d90cadd41445f"
+    },
+    {
+      "type": "req",
+      "url": "https://reg.icourse163.org/dl/zj/mail/ini",
+      "method": "POST",
+      "encParams_len": 320,
+      "encParams_prefix": "746628c1d80daa15585d90cadd41445f"
+    },
+    {
+      "type": "req",
+      "url": "https://reg.icourse163.org/zc/zj/yd/ini",
+      "method": "POST",
+      "encParams_len": 320,
+      "encParams_prefix": "746628c1d80daa15585d90cadd41445f"
+    },
+    {
+      "type": "resp",
+      "url": "https://reg.icourse163.org/dl/zj/yd/ini",
+      "status": 200,
+      "body_preview": "{\"ret\":\"201\",\"capFlag\":0,\"pv\":true,\"capId\":\"\"}"
+    },
+    {
+      "type": "resp",
+      "url": "https://reg.icourse163.org/dl/zj/mail/ini",
+      "status": 200,
+      "body_preview": "{\"ret\":\"201\",\"capFlag\":0,\"pv\":true,\"capId\":\"\"}"
+    },
+    {
+      "type": "resp",
+      "url": "https://reg.icourse163.org/zc/zj/yd/ini",
+      "status": 200,
+      "body_preview": "{\"ret\":\"201\",\"cf\":4,\"pv\":true,\"capId\":\"\"}"
+    },
+    {
+      "type": "req",
+      "url": "https://reg.icourse163.org/dl/dlzc/yd/ini",
+      "method": "POST",
+      "encParams_len": 320,
+      "encParams_prefix": "746628c1d80daa15585d90cadd41445f"
+    },
+    {
+      "type": "resp",
+      "url": "https://reg.icourse163.org/dl/dlzc/yd/ini",
+      "status": 200,
+      "body_preview": "{\"ret\":\"201\",\"capFlag\":4,\"pv\":true,\"capId\":\"\"}"
+    }
+  ],
+  "notes": [
+    {
+      "hook_result": {
+        "mp_encrypt": true,
+        "mp_encrypt2": true,
+        "sm4_encrypt": true,
+        "rsa_encrypt": true
+      }
+    }
+  ],
+  "screenshot": "/root/.openclaw/workspace/mooc/logs/runtime_hook_1772817186.png"
+}

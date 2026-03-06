@@ -91,3 +91,20 @@
   - 存在 `_formatParams` + `_$aesEncrypt` + `str2b64` 流程
   - 载荷包含 `params/timestamp/nonce/version(v1)`
   - 提交前会调用 `getEncryptKey`，说明使用动态下发密钥。
+
+### Updated (运行时 Hook 加密函数)
+- 新增 `scripts/mooc_runtime_hook_encrypt.py`：
+  - 在登录 iframe 内运行时 hook `MP.encrypt/MP.encrypt2/URSSM4.encrypt/RSA.encrypt`
+  - 抓取加密函数调用特征（参数脱敏）
+  - 关联 `encParams` 提交请求（仅长度/前缀）
+- 新增产物：
+  - `logs/runtime_hook_1772817186.json`
+  - `logs/runtime_hook_1772817186.png`
+
+### Findings (关键突破)
+- 已确认 `encParams` 由 **URSSM4.encrypt** 生成（本轮捕获到调用记录）。
+- 本轮捕获：
+  - `URSSM4.encrypt` 返回字符串长度 `320`，前缀与提交 `encParams` 一致。
+  - 第二参数为动态密钥（疑似来自 `getEncryptKey` 链路）。
+- 结论：登录提交链路为 **SM4 加密载荷 + 动态密钥**，而非固定 RSA 明文提交。
+- 当前接口返回仍为 `ret=201`，后续需处理验证码/风控环节才能拿到最终登录态。
