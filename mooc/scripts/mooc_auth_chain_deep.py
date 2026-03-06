@@ -138,7 +138,7 @@ def main():
 
         if target_frame:
             phone_sel = ["input[type='tel']", "input[placeholder*='手机号']", "input[name*='phone']", "#phone"]
-            pass_sel = ["input[type='password']", "input[placeholder*='密码']", "input[name*='password']", "#password"]
+            pass_sel = ["input[name='email'][type='password']", "input[placeholder*='密码']", "input[type='password']", "input[name*='password']", "#password"]
 
 
             # 强制切到“密码登录/账号登录”模式
@@ -157,8 +157,13 @@ def main():
             for s in phone_sel:
                 try:
                     loc = target_frame.locator(s)
-                    if loc.count() > 0:
-                        pbox = loc.first
+                    cnt = loc.count()
+                    for i in range(cnt):
+                        cand = loc.nth(i)
+                        if cand.is_visible():
+                            pbox = cand
+                            break
+                    if pbox:
                         break
                 except Exception:
                     pass
@@ -167,11 +172,19 @@ def main():
             for s in pass_sel:
                 try:
                     loc = target_frame.locator(s)
-                    if loc.count() > 0:
-                        pwbox = loc.first
+                    cnt = loc.count()
+                    for i in range(cnt):
+                        cand = loc.nth(i)
+                        if cand.is_visible():
+                            pwbox = cand
+                            break
+                    if pwbox:
                         break
                 except Exception:
                     pass
+
+            report["events"].append({"type":"note","msg":f"selected_phone_selector:{getattr(pbox, '_selector', 'visible-candidate') if pbox else 'none'}"})
+            report["events"].append({"type":"note","msg":f"selected_password_selector:{getattr(pwbox, '_selector', 'visible-candidate') if pwbox else 'none'}"})
 
             if pbox and PHONE:
                 

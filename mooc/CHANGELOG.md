@@ -56,3 +56,18 @@
 - 已执行“密码登录模式切换”逻辑，但当前页面仍出现 `password input not visible/editable`。
 - 说明密码输入框在可见性层面受动态组件或前端状态控制（可能需要先切 tab、触发验证码组件初始化、或等待特定脚本渲染完成）。
 - 鉴权请求仍统一为 `encParams` 加密提交，端点不变。
+
+### Updated (密码登录链路打通)
+- 修复 `scripts/mooc_auth_chain_deep.py`：改为选择“可见输入框”填充，避免命中隐藏密码框。
+- 新增产物：
+  - `logs/auth_chain_deep_1772815550.json`
+  - `logs/auth_chain_deep_1772815550.png`
+
+### Findings (关键进展)
+- 本轮已实现：`phone_filled=true`、`password_filled=true`、`login_clicked=true`。
+- 说明“密码验证登录”页面交互链路已打通（可正确填充并点击提交）。
+- 登录请求仍为加密载荷 `encParams`，关键端点稳定：
+  - `/dl/zj/yd/ini`
+  - `/dl/zj/mail/ini`
+  - `/dl/dlzc/yd/ini`
+  - `/zc/zj/yd/ini`
