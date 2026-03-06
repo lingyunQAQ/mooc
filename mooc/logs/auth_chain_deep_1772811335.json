@@ -1,0 +1,141 @@
+{
+  "time": 1772811335,
+  "start": "https://www.icourse163.org/",
+  "phone_filled": true,
+  "password_filled": false,
+  "login_clicked": true,
+  "iframe_url": "https://reg.icourse163.org/webzj/v1.0.1/pub/index_dl2_new.html?cd=%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F&cf=mooc_urs_login_css.css&MGID=1772811339302.6147&wdaId=UA1438236666413&pkid=cjJVGQM&product=imooc&cdnhostname=webzj.netstatic.net",
+  "events": [
+    {
+      "type": "request",
+      "method": "GET",
+      "host": "reg.icourse163.org",
+      "path": "/webzj/v1.0.1/pub/index_dl2_new.html",
+      "query": "cd=%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F&cf=mooc_urs_login_css.css&MGID=1772811339302.6147&wdaId=UA1438236666413&pkid=cjJVGQM&product=imooc&cdnhostname=webzj.netstatic.net"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "host": "reg.icourse163.org",
+      "path": "/webzj/v1.0.1/pub/index_dl2_new.html",
+      "query": "cd=%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F&cf=mooc_urs_login_css.css&MGID=1772811339309.6052&wdaId=UA1438236666413&pkid=cjJVGQM&product=imooc&cdnhostname=webzj.netstatic.net"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "host": "reg.icourse163.org",
+      "path": "/webzj/v1.0.1/pub/index_reg2_new.html",
+      "query": "cd=%2F%2Fcmc.stu.126.net%2Fu%2Fcss%2Fcms%2F&cf=mooc_urs_login_css.css&MGID=1772811339315.6938&wdaId=UA1438236666413&pkid=cjJVGQM&product=imooc&cdnhostname=webzj.netstatic.net"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "host": "reg.icourse163.org",
+      "path": "/webzj/v1.0.1/pub/index_dl2_new.html"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "host": "reg.icourse163.org",
+      "path": "/webzj/v1.0.1/pub/index_reg2_new.html"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "host": "dl.reg.163.com",
+      "path": "/UA1435545636633/__utm.gif",
+      "query": "configlog=1&from=https%3A%2F%2Fwww.icourse163.org%2F&config=%7B%22newCDN%22%3A1%2C%22version%22%3A4%2C%22productKey%22%3A%22a3b396bb2f589bbc1151f0fa61d14747%22%2C%22swidth%22%3A250%2C%22product%22%3A%"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "host": "reg.icourse163.org",
+      "path": "/zc/zj/yd/ini",
+      "query": "",
+      "post_keys": [
+        "encParams"
+      ]
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "host": "dl.reg.163.com",
+      "path": "/UA1435545636633/__utm.gif",
+      "query": "configlog=1&from=https%3A%2F%2Fwww.icourse163.org%2F&config=%7B%22newCDN%22%3A1%2C%22version%22%3A4%2C%22productKey%22%3A%22a3b396bb2f589bbc1151f0fa61d14747%22%2C%22swidth%22%3A360%2C%22product%22%3A%"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "host": "dl.reg.163.com",
+      "path": "/UA1435545636633/__utm.gif",
+      "query": "from=webzjwebworker&ursfp=f99f723bbeb03750521901f356166572&utid=UtQbWTFg7J9JQQvoRKikq6fP0V3yhnat&name=webzj_power_pv&sp=1&ua=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "host": "dl.reg.163.com",
+      "path": "/UA1435545636633/__utm.gif"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "host": "reg.icourse163.org",
+      "path": "/dl/zj/yd/ini",
+      "query": "",
+      "post_keys": [
+        "encParams"
+      ]
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "host": "reg.icourse163.org",
+      "path": "/dl/zj/mail/ini",
+      "query": "",
+      "post_keys": [
+        "encParams"
+      ]
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "host": "reg.icourse163.org",
+      "path": "/zc/zj/yd/ini"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "host": "reg.icourse163.org",
+      "path": "/dl/zj/yd/ini"
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "host": "reg.icourse163.org",
+      "path": "/dl/zj/mail/ini"
+    },
+    {
+      "type": "note",
+      "msg": "password input not visible/editable"
+    },
+    {
+      "type": "request",
+      "method": "POST",
+      "host": "reg.icourse163.org",
+      "path": "/dl/dlzc/yd/ini",
+      "query": "",
+      "post_keys": [
+        "encParams"
+      ]
+    },
+    {
+      "type": "response",
+      "status": 200,
+      "host": "reg.icourse163.org",
+      "path": "/dl/dlzc/yd/ini"
+    }
+  ],
+  "final_url": "https://www.icourse163.org/",
+  "title": "中国大学MOOC_优质在线课程学习平台",
+  "screenshot": "/root/.openclaw/workspace/mooc/logs/auth_chain_deep_1772811335.png"
+}

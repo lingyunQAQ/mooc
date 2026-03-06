@@ -25,3 +25,23 @@
   - `https://mc.stu.126.net/rc/main/assets/campus-login-entry...js`
 - 登录相关参数中出现 `product=imooc`、`pkid=cjJVGQM`、`ursDeviceId` 等关键字段
 - 下一步将基于 HAR 继续定位真正的鉴权请求（账号密码提交/验证码/登录态 cookie）
+
+### Updated (深挖登录链路)
+- 新增 `scripts/mooc_auth_chain_deep.py`：
+  - 主页点击登录
+  - 定位 `reg.icourse163.org` 登录 iframe
+  - 尝试填充手机号/密码并点击登录
+  - 抓取鉴权链路关键请求（仅记录 POST 字段名，不记录字段值）
+
+- 新增产物：
+  - `logs/auth_chain_deep_1772811335.json`
+  - `logs/auth_chain_deep_1772811335.png`
+
+### Findings (本轮深挖结论)
+- 登录页位于：`reg.icourse163.org/webzj/v1.0.1/pub/index_dl2_new.html`
+- 已确认登录链路关键端点（均为 `encParams` 加密载荷）：
+  - `POST /dl/zj/yd/ini`
+  - `POST /dl/zj/mail/ini`
+  - `POST /dl/dlzc/yd/ini`
+  - `POST /zc/zj/yd/ini`
+- 说明：登录核心参数经前端加密后提交（非明文字段），后续需要在前端 JS 中还原 `encParams` 生成逻辑。
