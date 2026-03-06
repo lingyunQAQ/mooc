@@ -1,0 +1,31 @@
+{
+  "time": 1772810834,
+  "home_status": 200,
+  "csrf_present": true,
+  "probes": [
+    {
+      "tag": "channel_list",
+      "endpoint": "/web/j/channelBean.listChannelCategoryDetail.rpc",
+      "http": 200,
+      "code": 0,
+      "message": "",
+      "has_result": true
+    },
+    {
+      "tag": "course_list",
+      "endpoint": "/web/j/mocSearchBean.searchCourseCardByChannelAndCategoryId.rpc",
+      "http": 200,
+      "code": 0,
+      "message": "",
+      "has_result": true
+    },
+    {
+      "tag": "course_comments",
+      "endpoint": "/web/j/mocCourseV2RpcBean.getCourseEvaluatePaginationByCourseIdOrTermId.rpc",
+      "http": 200,
+      "code": 0,
+      "message": "",
+      "has_result": true
+    }
+  ]
+}

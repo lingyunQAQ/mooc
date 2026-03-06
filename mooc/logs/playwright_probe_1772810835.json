@@ -1,0 +1,15 @@
+{
+  "time": 1772810835,
+  "start_url": "https://www.icourse163.org/",
+  "opened": true,
+  "login_ui_found": false,
+  "filled": false,
+  "submitted": false,
+  "notes": [
+    "未识别到标准账号密码输入框，可能是 iframe/滑块/动态组件"
+  ],
+  "network_candidates": [],
+  "title": "中国大学MOOC_优质在线课程学习平台",
+  "final_url": "https://www.icourse163.org/",
+  "screenshot": "/root/.openclaw/workspace/mooc/logs/playwright_probe_1772810835.png"
+}
